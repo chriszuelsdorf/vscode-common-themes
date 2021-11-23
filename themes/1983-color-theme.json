@@ -4,7 +4,15 @@
 	"colors": { // 211d1b
 		// See ref here https://code.visualstudio.com/api/references/theme-color
 		"editor.background": "#212E4B",
-		"editor.foreground": "#E5E3D0"
+		"editor.foreground": "#E5E3D0",
+		"tab.inactiveBackground": "#161F33",
+		"titleBar.activeBackground": "#0e1421",
+		"titleBar.inactiveBackground": "#19233B",
+		"activityBar.background": "#121A2B",
+		"editorGroupHeader.tabsBackground": "#121A2B",
+		"activityBar.foreground": "#72AFD5",
+		"activityBarBadge.background": "#72AFD5",
+		"activityBarBadge.foreground": "#1A1C2F"
 	},
 	"tokenColors": [
 		{
@@ -46,6 +54,15 @@
 			],
 			"settings": {
 				"foreground": "#72AFD5"
+			}
+		},
+		{
+			"name": "Dictionary Property Name",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#3888BA"
 			}
 		},
 		{
