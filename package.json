@@ -1,11 +1,23 @@
 {
     "name": "vscode-common-themes",
-    "displayName": "vscode-common-themes",
+    "publisher": "czuelsdorf",
+    "displayName": "Common Themes",
     "description": "A collection of common themes.",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.62.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chriszuelsdorf/vscode-common-themes"
+    },
+
+    "keywords": [
+        "1983 theme",
+        "harbor theme",
+        "blue moon theme",
+        "common themepack"
+    ],
     "categories": [
         "Themes"
     ],
