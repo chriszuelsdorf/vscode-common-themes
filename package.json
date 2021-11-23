@@ -1,0 +1,36 @@
+{
+    "name": "vscode-common-themes",
+    "displayName": "vscode-common-themes",
+    "description": "A collection of common themes.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvbox",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvbox-color-theme.json"
+            },
+            {
+                "label": "1983",
+                "uiTheme": "vs-dark",
+                "path": "./themes/1983-color-theme.json"
+            },
+            {
+                "label": "Harbor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/harbor-color-theme.json"
+            },
+            {
+                "label": "Blue Moon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-moon-color-theme.json"
+            }
+        ]
+    }
+}

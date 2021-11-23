@@ -1,0 +1,60 @@
+{
+	"name": "Gruvbox",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#282828",
+		"editor.foreground": "#FDF4C1"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#928374"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#B8BB26"
+			}
+		},
+		{
+			"name": "Class, Function, Control",
+			"scope": [
+				"keyword.control",
+				"storage.type",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#FA5C4B"
+			}
+		},
+		{
+			"name": "Numerics",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#FC8679"
+			}
+		},
+		{
+			"name": "Arguments",
+			"scope": [
+				"meta.class",
+				"meta.function"
+			],
+			"settings": {
+				"foreground": "#8EC07C"
+			}
+		}
+	]
+}

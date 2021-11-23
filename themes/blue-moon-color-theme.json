@@ -1,0 +1,61 @@
+{
+	"name": "Blue Moon",
+	"type": "dark",
+	"colors": {
+		// See ref here https://code.visualstudio.com/api/references/theme-color
+		"editor.background": "#001E33",
+		"editor.foreground": "#E5E3D0",
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#8f8c88"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#FF5353"
+			}
+		},
+		{
+			"name": "Class, Function, Control",
+			"scope": [
+				"keyword.control",
+				"storage.type",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#2EBF7E"
+			}
+		},
+		{
+			"name": "Numerics",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#67DAA6"
+			}
+		},
+		{
+			"name": "Arguments",
+			"scope": [
+				"meta.class",
+				"meta.function",
+			],
+			"settings": {
+				"foreground": "#F8BB39"
+			}
+		},
+	]
+}
