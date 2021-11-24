@@ -12,3 +12,8 @@ All notable changes to the "vscode-common-themes" extension will be documented i
 
 - Added more UI customization for 1983
 - Improved JSON look in 1983
+
+## [1.2.0]
+
+- Changed logical operator appearance
+- UI Color Overhaul

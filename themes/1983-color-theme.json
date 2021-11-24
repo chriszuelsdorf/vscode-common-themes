@@ -5,14 +5,45 @@
 		// See ref here https://code.visualstudio.com/api/references/theme-color
 		"editor.background": "#212E4B",
 		"editor.foreground": "#E5E3D0",
-		"tab.inactiveBackground": "#161F33",
+		"tab.inactiveBackground": "#0E1421",
 		"titleBar.activeBackground": "#0e1421",
-		"titleBar.inactiveBackground": "#19233B",
-		"activityBar.background": "#121A2B",
-		"editorGroupHeader.tabsBackground": "#121A2B",
+		"titleBar.inactiveBackground": "#131B2C",
+		"activityBar.background": "#131B2C",
+		"editorGroupHeader.tabsBackground": "#131B2C",
 		"activityBar.foreground": "#72AFD5",
 		"activityBarBadge.background": "#72AFD5",
-		"activityBarBadge.foreground": "#1A1C2F"
+		"activityBarBadge.foreground": "#1A1C2F",
+		"sideBar.background": "#182136",
+		"sideBarSectionHeader.background": "#0E1421",
+		"focusBorder": "#3888BA",
+		"editor.lineHighlightBackground": "#131B2C",
+		"gitDecoration.modifiedResourceForeground": "#DFB74D",
+		"gitDecoration.untrackedResourceForeground": "#589C2D",
+		"editor.selectionBackground": "#344875",
+		"button.background": "#2B3B60",
+		"button.foreground": "#E5E3D0",
+		"dropdown.background": "#182136",
+		"dropdown.listBackground": "#182136",
+		"dropdown.border": "#72AFD5",
+		"dropdown.foreground": "#E5E3D0",
+		"editorGroupHeader.tabsBorder": "#212E4B",
+		"tab.border": "#212E4B",
+		"gitDecoration.addedResourceForeground": "#D67440",
+		"statusBar.background": "#131B2C",
+		"statusBar.noFolderBackground": "#131B2C",
+		"statusBar.debuggingBackground": "#131B2C",
+		"statusBar.foreground": "#589C2D",
+		"statusBar.noFolderForeground": "#DFB74D",
+		"statusBar.debuggingForeground": "#E5E3D0",
+		"input.background": "#212E4B",
+		"input.foreground": "#E5E3D0",
+		"editorWidget.background": "#182136",
+		"editorWidget.foreground": "#E5E3D0",
+		"editorCursor.background": "#0E1421",
+		"editorCursor.foreground": "#72AFD5",
+		"editor.wordHighlightBackground": "#131B2C",
+		"tab.activeForeground": "#E5E3D0",
+		"tab.inactiveForeground": "#E5E3D0"
 	},
 	"tokenColors": [
 		{
@@ -40,7 +71,8 @@
 			"scope": [
 				"keyword.control",
 				"storage.type",
-				"constant.language"
+				"constant.language",
+				"keyword.operator.logical"
 			],
 			"settings": {
 				"foreground": "#3888BA",
@@ -69,10 +101,11 @@
 			"name": "Arguments",
 			"scope": [
 				"meta.class",
-				"meta.function"
+				"meta.function",
+				"punctuation.definition.decorator"
 			],
 			"settings": {
-				"foreground": "#CD3032"
+				"foreground": "#D67440" //cd3032
 			}
 		}
 	]
