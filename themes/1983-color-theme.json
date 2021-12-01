@@ -43,14 +43,24 @@
 		"editorCursor.foreground": "#72AFD5",
 		"editor.wordHighlightBackground": "#131B2C",
 		"tab.activeForeground": "#E5E3D0",
-		"tab.inactiveForeground": "#E5E3D0"
+		"tab.inactiveForeground": "#E5E3D0",
+		"editorRuler.foreground": "#344875",
+		"editorIndentGuide.background": "#344875",
+		"editorIndentGuide.activeBackground": "#385a97",
+		"list.hoverBackground": "#28375c",
+		"editor.selectionHighlightBackground": "#28375c",
+		"editor.findMatchBackground": "#000000",
+		"editor.findMatchHighlightBackground":"#111133"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"editorRuler.foreground",
+				"editorIndentGuide.background",
+				"editorIndentGuide.activeBackground",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -91,7 +101,8 @@
 		{
 			"name": "Dictionary Property Name",
 			"scope": [
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"keyword.other.definition.ini"
 			],
 			"settings": {
 				"foreground": "#3888BA"
@@ -102,7 +113,8 @@
 			"scope": [
 				"meta.class",
 				"meta.function",
-				"punctuation.definition.decorator"
+				"punctuation.definition.decorator",
+				"entity.name.section.group-title.ini"
 			],
 			"settings": {
 				"foreground": "#D67440" //cd3032

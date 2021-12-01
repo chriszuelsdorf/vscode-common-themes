@@ -17,3 +17,9 @@ All notable changes to the "vscode-common-themes" extension will be documented i
 
 - Changed logical operator appearance
 - UI Color Overhaul
+
+## [1.3.0]
+
+- Added INI coloring
+- Fixed find-match coloring
+- Added indent guide and ruler coloring
