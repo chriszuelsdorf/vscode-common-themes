@@ -1,0 +1,131 @@
+{
+	"name": "Brewers' Night",
+	"type": "dark",
+	"colors": { // 211d1b
+		// See ref here https://code.visualstudio.com/api/references/theme-color
+		"editor.background": "#131B2C", // 212E4B // 230F00
+		"editor.foreground": "#D2D2D2", //DBC9A5 //E5E3D0
+		"tab.inactiveBackground": "#1F1611",
+		"tab.activeBackground": "#291D17",
+		"tab.border": "#10101000",
+		"editorGroupHeader.tabsBorder": "#00000000",
+		"titleBar.border": "#00000000",
+		"activityBar.border": "#00000000",
+		"tab.activeForeground": "#D2D2D2",
+		"tab.inactiveForeground": "#D2D2D2",
+		"editorGutter.background": "#131B2C",
+		"breadcrumb.background": "#131B2C",
+		"titleBar.activeBackground": "#291D17",
+		"titleBar.inactiveBackground": "#32241C", //443227
+		"titleBar.activeForeground": "#D2D2D2",
+		"titleBar.inactiveForeground": "#D2D2D2",
+		"activityBar.background": "#291D17",
+		"editorGroupHeader.tabsBackground": "#291D17",
+		"activityBar.foreground": "#D2D2D2",
+		"activityBarBadge.background": "#7e5f4a",
+		"activityBarBadge.foreground": "#131B2C",
+		"sideBar.background": "#212531",
+		// "sideBarSectionHeader.background": "#0E1421",
+		"focusBorder": "#c97c3e",
+		"editor.lineHighlightBackground": "#1D202B",
+		"gitDecoration.modifiedResourceForeground": "#DFB74D",
+		"gitDecoration.untrackedResourceForeground": "#589C2D",
+		"editor.selectionBackground": "#344875",
+		"button.background": "#c97c3e",
+		"button.foreground": "#131B2C",
+		// "dropdown.background": "#182136",
+		// "dropdown.listBackground": "#182136",
+		// "dropdown.border": "#72AFD5",
+		// "dropdown.foreground": "#E5E3D0",=
+		// "gitDecoration.addedResourceForeground": "#D67440",
+		"statusBar.background": "#131B2C",
+		"statusBar.noFolderBackground": "#131B2C",
+		"statusBar.debuggingBackground": "#131B2C",
+		"statusBar.foreground": "#589C2D",
+		"statusBar.noFolderForeground": "#DFB74D",
+		"statusBar.debuggingForeground": "#E5E3D0",
+		"input.background": "#313747",
+		"input.foreground": "#E5E3D0",
+		"editorWidget.background": "#1b253b",
+		"editorWidget.foreground": "#E5E3D0",
+		"editorCursor.background": "#0E1421",
+		"editorCursor.foreground": "#4F5D75",
+		// "editor.wordHighlightBackground": "#131B2C",
+		"editorRuler.foreground": "#344875",
+		// "editorIndentGuide.background": "#344875",
+		// "editorIndentGuide.activeBackground": "#385a97",
+		// "list.hoverBackground": "#28375c",
+		// "editor.selectionHighlightBackground": "#28375c",
+		// "editor.findMatchBackground": "#000000",
+		// "editor.findMatchHighlightBackground":"#111133"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"editorRuler.foreground",
+				"editorIndentGuide.background",
+				"editorIndentGuide.activeBackground",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#589C2D"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#DFB74D"
+			}
+		},
+		{
+			"name": "Class, Function, Control",
+			"scope": [
+				"keyword.control",
+				"storage.type",
+				"constant.language",
+				"keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "#3888BA",
+                "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numerics",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#72AFD5"
+			}
+		},
+		{
+			"name": "Dictionary Property Name",
+			"scope": [
+				"support.type.property-name.json",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#c97c3e"
+			}
+		},
+		{
+			"name": "Arguments",
+			"scope": [
+				"meta.class",
+				"meta.function",
+				"punctuation.definition.decorator",
+				"entity.name.section.group-title.ini"
+			],
+			"settings": {
+				"foreground": "#c97c3e"
+			}
+		}
+	]
+}

@@ -41,6 +41,11 @@
                 "label": "Blue Moon",
                 "uiTheme": "vs-dark",
                 "path": "./themes/blue-moon-color-theme.json"
+            },
+            {
+                "label": "Brewers' Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/brewers-night-color-theme.json"
             }
         ]
     }
