@@ -23,3 +23,11 @@ All notable changes to the "vscode-common-themes" extension will be documented i
 - Added INI coloring
 - Fixed find-match coloring
 - Added indent guide and ruler coloring
+
+## [1.4.0]
+
+- Added Brewers' Night Theme
+
+## [1.5.0]
+
+- Adding (some) support for [VLang](https://github.com/vlang/v).
