@@ -82,7 +82,8 @@
 				"keyword.control",
 				"storage.type",
 				"constant.language",
-				"keyword.operator.logical"
+				"keyword.operator.logical",
+				"storage.modifier.v"
 			],
 			"settings": {
 				"foreground": "#3888BA",
@@ -114,7 +115,8 @@
 				"meta.class",
 				"meta.function",
 				"punctuation.definition.decorator",
-				"entity.name.section.group-title.ini"
+				"entity.name.section.group-title.ini",
+				"meta.definition.function.v"
 			],
 			"settings": {
 				"foreground": "#D67440" //cd3032
