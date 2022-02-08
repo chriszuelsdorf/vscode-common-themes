@@ -31,3 +31,7 @@ All notable changes to the "vscode-common-themes" extension will be documented i
 ## [1.5.0]
 
 - Adding (some) support for [VLang](https://github.com/vlang/v).
+
+## [1.6.0]
+
+- Adding coloring for Markdown headings
