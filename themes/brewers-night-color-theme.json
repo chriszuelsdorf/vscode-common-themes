@@ -6,7 +6,7 @@
 		"editor.background": "#131B2C", // 212E4B // 230F00
 		"editor.foreground": "#D2D2D2", //DBC9A5 //E5E3D0
 		"tab.inactiveBackground": "#1F1611",
-		"tab.activeBackground": "#291D17",
+		"tab.activeBackground": "#32241C", //291d17
 		"tab.border": "#10101000",
 		"editorGroupHeader.tabsBorder": "#00000000",
 		"titleBar.border": "#00000000",
@@ -75,9 +75,19 @@
 			}
 		},
 		{
+			"name": "Green Non-Italic",
+			"scope": [
+				"heading.3"
+			],
+			"settings": {
+				"foreground": "#589C2D"
+			}
+		},
+		{
 			"name": "String",
 			"scope": [
-				"string"
+				"string",
+				"heading.1"
 			],
 			"settings": {
 				"foreground": "#DFB74D"
@@ -100,7 +110,8 @@
 		{
 			"name": "Numerics",
 			"scope": [
-				"constant"
+				"constant",
+				"markup.heading"
 			],
 			"settings": {
 				"foreground": "#72AFD5"
@@ -110,7 +121,8 @@
 			"name": "Dictionary Property Name",
 			"scope": [
 				"support.type.property-name.json",
-				"keyword.other.definition.ini"
+				"keyword.other.definition.ini",
+				"heading.2"
 			],
 			"settings": {
 				"foreground": "#c97c3e"

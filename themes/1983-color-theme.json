@@ -68,9 +68,19 @@
 			}
 		},
 		{
+			"name": "Green Non-Italic",
+			"scope": [
+				"heading.3"
+			],
+			"settings": {
+				"foreground": "#589C2D"
+			}
+		},
+		{
 			"name": "String",
 			"scope": [
-				"string"
+				"string",
+				"heading.1"
 			],
 			"settings": {
 				"foreground": "#DFB74D"
@@ -83,7 +93,8 @@
 				"storage.type",
 				"constant.language",
 				"keyword.operator.logical",
-				"storage.modifier.v"
+				"storage.modifier.v",
+				"heading"
 			],
 			"settings": {
 				"foreground": "#3888BA",
@@ -116,7 +127,8 @@
 				"meta.function",
 				"punctuation.definition.decorator",
 				"entity.name.section.group-title.ini",
-				"meta.definition.function.v"
+				"meta.definition.function.v",
+				"heading.2"
 			],
 			"settings": {
 				"foreground": "#D67440" //cd3032
