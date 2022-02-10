@@ -35,3 +35,7 @@ All notable changes to the "vscode-common-themes" extension will be documented i
 ## [1.6.0]
 
 - Adding coloring for Markdown headings
+
+## [1.6.1]
+
+- Fixing (adding) coloring to sql keywords from #9, thought this had been done earlier
