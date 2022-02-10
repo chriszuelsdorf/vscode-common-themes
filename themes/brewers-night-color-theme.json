@@ -122,7 +122,10 @@
 			"scope": [
 				"support.type.property-name.json",
 				"keyword.other.definition.ini",
-				"heading.2"
+				"heading.2",
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL"
 			],
 			"settings": {
 				"foreground": "#c97c3e"

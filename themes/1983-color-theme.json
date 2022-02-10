@@ -128,7 +128,10 @@
 				"punctuation.definition.decorator",
 				"entity.name.section.group-title.ini",
 				"meta.definition.function.v",
-				"heading.2"
+				"heading.2",
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL"
 			],
 			"settings": {
 				"foreground": "#D67440" //cd3032
